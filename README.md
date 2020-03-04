@@ -1,9 +1,9 @@
 # screenshot-ios-automatic-resize
-A python script to create all ios screenshots for itunesconnect.
+- Default resize mode is landscape
+- If you want portrait then modify source to "portrait = True"
 
 ## Requirement
-imagemagic
+- imagemagic
 
-Demo: 
-
-https://youtu.be/sBp5WqEu2C0
+### Demo: 
+- https://youtu.be/sBp5WqEu2C0
