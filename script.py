@@ -42,7 +42,7 @@ files = os.listdir('screenshots/')
 screenshot_files = ['screenshots/' + f for f in files if f.endswith('.png')]
 
 
-portrait = False
+portrait = True
 
 for s in screenshot_files:
     convert_to(s, 640, 920, 'result/iphone/3_5', portrait)
